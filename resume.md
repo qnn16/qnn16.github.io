@@ -19,9 +19,9 @@ GPA: 3.7
 
 Relevant Courses
 >Foundational Skills for Data Science
-Intermediate Data Programming
-Elements of Statistical Methods
-Intellectual Foundations of Informatics
-GIS and Mapping
+>Intermediate Data Programming
+>Elements of Statistical Methods
+>Intellectual Foundations of Informatics
+>GIS and Mapping
 
 [University of Washington]: http://www.uw.edu
