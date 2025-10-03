@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
+        <title>NQ Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -17,56 +17,93 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">NQ Nguyen</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/toji.jpeg" alt="..." /></span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/husky.jpg" alt="Profile photo" style="width:10rem;height:10rem;object-fit:cover;" />
+                </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container-fluid p-0">
+    <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        NQ
-                        <span class="text-primary">Nguyen</span>
+                        NQ <span class="text-primary">Nguyen</span>
                     </h1>
                     <div class="subheading mb-5">
-                        · (123) 456-7890 ·
-                        <a href="mailto:name@email.com">qnn@uw.edu</a>
+                        <a href="mailto:name@email.com" class="text-primary">nqnuwstuff@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am interested in data programming and analytics.</p>
+                    <p class="lead mb-5">
+                        As a recent graduate from the University of Washington, I am driven by a passion for data analytics with a strong interest in visualization and solving real-world problems.<br>
+                        My experience spans Python, data engineering, and geospatial data analysis and I enjoy learning about new concepts that can improve my skills.
+                    </p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/quang-nguyen-b74210224/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/qnn16"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/quang-nguyen-b74210224/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="social-icon" href="https://github.com/qnn16">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Scientist</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p></p>
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column">
+                        <div class="mb-4">
+                            <h3 class="mb-1">
+                                <a href="https://github.com/qnn16/wildfires" target="_blank" class="text-primary">Wildfires</a>
+                            </h3>
+                            <p>Analysis and visualization of wildfire data. Tools: Python, Pandas, Matplotlib.</p>
+                            <div style="width:100%;max-width:900px;margin:auto;">
+                                <iframe src="https://qnn16.github.io/wildfires/" width="100%" height="800" style="border:none;" title="Wildfires Interactive Map"></iframe>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="mb-4">
+                            <h3 class="mb-1">
+                                <a href="https://github.com/qnn16/tilesets" target="_blank" class="text-primary">Tilesets</a>
+                            </h3>
+                            <p>Geospatial data processing and map tile generation. Tools: Python, GIS libraries.</p>
+                            <div style="width:100%;max-width:900px;margin:auto;">
+                                <iframe src="https://qnn16.github.io/tilesets/" width="100%" height="800" style="border:none;" title="Tilesets Interactive Map"></iframe>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h3 class="mb-1">
+                                <a href="https://github.com/qnn16/2020covidratescounts" target="_blank" class="text-primary">2020 COVID Rates & Counts</a>
+                            </h3>
+                            <p>COVID-19 data analysis and visualization for 2020. Tools: Python, Javascript, Mapbox API.</p>
+                            <div style="width:100%;max-width:900px;margin:auto;">
+                                <div style="margin-bottom:1rem;">
+                                    <iframe src="https://qnn16.github.io/2020covidratescounts/map1.html" width="100%" height="800" style="border:none;display:block;" title="COVID Map 1"></iframe>
+                                </div>
+                                <div>
+                                    <iframe src="https://qnn16.github.io/2020covidratescounts/map2.html" width="100%" height="800" style="border:none;display:block;" title="COVID Map 2"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h3 class="mb-1">
+                                <a href="https://github.com/qnn16/cse163-tennis-project-gang" target="_blank" class="text-primary">Tennis Data Analysis Project</a>
+                            </h3>
+                            <p>Data-driven tennis analytics project. Tools: Python, Jupyter, Data Analysis.</p>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 </div>
             </section>
             <hr class="m-0" />
@@ -74,22 +111,15 @@
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
+                    <div>
+                        <div style="display:flex;align-items:center;justify-content:space-between;">
                             <h3 class="mb-0">University of Washington</h3>
-                            <div class="subheading mb-3">Bachelor of Arts</div>
-                            <div>Geography: Data Science</div>
-                            <p>GPA: 3.7</p>
+                            <span class="text-primary">2025</span>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - June 2024</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Tumwater High School</h3>
-                            <div class="subheading mb-3"></div>
-                            <p>GPA: 3.4</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2015 - June 2019</span></div>
+                        <div class="subheading mb-3">Bachelor of Arts</div>
+                        <div>Geography: Data Science</div>
+                        <p>GPA: 3.6</p>
+                        <div><strong>Relevant Coursework:</strong> Intro to Machine Learning, Foundational Skills for Data Science, Intermediate Data Programming, Elements of Statistical Methods, GIS and Mapping, GIS Database and Programming, Geographic Information and Spatial Analysis, GIS Data Management, Quantitative Methods in Geography</div>
                     </div>
                 </div>
             </section>
@@ -100,10 +130,10 @@
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     </ul>
                     <div class="subheading mb-3">Technical Skills</div>
                     <ul class="fa-ul mb-0">
@@ -116,14 +146,6 @@
                             Certified in Microsoft Office (Excel, Powerpoint, Word)
                         </li>
                     </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from technology, I enjoy reading sci-fi and fantasy books, cooking, and watching/playing tennis or basketball.</p>
                 </div>
             </section>
             <hr class="m-0" />

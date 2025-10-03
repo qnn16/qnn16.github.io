@@ -8036,8 +8036,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #4B2E83 !important;
 }
 
 .text-secondary {
@@ -10870,6 +10869,7 @@ p.lead {
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
+  background-color: #4B2E83; /* Husky purple */
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -10892,6 +10892,7 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    background-color: #4B2E83; /* Husky purple for desktop */
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -10949,8 +10950,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
