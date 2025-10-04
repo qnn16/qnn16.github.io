@@ -10971,3 +10971,13 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* Hide blinking caret for non-editable content site-wide, but keep form controls and editable areas normal */
+body :not(input):not(textarea):not([contenteditable]) {
+  caret-color: transparent !important;
+}
+
+/* Ensure inputs, textareas and contenteditable elements show caret */
+input, textarea, [contenteditable] {
+  caret-color: auto !important;
+}
